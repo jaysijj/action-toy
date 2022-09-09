@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Bobafett",
+    "foto": "bobafett",
+    "valor": 129.99,
+    "id": "1"
+  },
+  {
+    "nome": "Cinderela Nerd",
+    "foto": "cinderela",
+    "valor": 99.90,
+    "id": "2"
+  },
+  {
+    "nome": "Fred Mercury",
+    "foto": "fred",
+    "valor": 109.50,
+    "id": "3"
+  },
+  {
+    "nome": "Mandalorian",
+    "foto": "mandalorian",
+    "valor": 150.20,
+    "id": "4"
+  },
+  {
+    "nome": "Harry Potter",
+    "foto": "harry",
+    "valor": 119.90,
+    "id": "5"
+  },
+  {
+    "nome": "Stitch",
+    "foto": "stitch",
+    "valor": 149.99,
+    "id": "6"
+  },
+  {
+    "nome": "Vegeta",
+    "foto": "vegeta",
+    "valor": 129.99,
+    "id": "7"
+  },
+  {
+    "nome": "Loki",
+    "foto": "loki",
+    "valor": 149.99,
+    "id": "8"
+  }
+]
