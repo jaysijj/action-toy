@@ -29,7 +29,7 @@ function Carrinho() {
   return (
     <Container>
       <Voltar onClick={history.goBack} />
-      <h2>Carrinho</h2>
+      <h2 className="carrinho">Carrinho</h2>
       {carrinho.map(produto => (
         <Produto {...produto} key={produto.id} />
       ))}

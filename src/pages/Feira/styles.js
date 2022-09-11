@@ -5,10 +5,11 @@ export const Container = styled.main`
   padding: 0 20px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
+  padding: 0 30px 40px 30px;
 
   @media (min-width: 768px) {
     margin: 0 auto;
-    width: 50%;
+    width: 710px;
   }
 `
 
@@ -18,6 +19,7 @@ export const Header = styled.header`
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    
 
     }
     > h2,

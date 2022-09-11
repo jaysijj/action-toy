@@ -12,4 +12,4 @@ Link para acesso: **https://vercel.com/jaysijj/action-toy**
 
 #
 
-<img src="/public/action-toy.png"></img>
+<img src="./public/assets/action-toy.png"></img>

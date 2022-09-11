@@ -15,15 +15,29 @@ export const Container = styled.main`
 
   @media (min-width: 768px) {
     margin: 0 auto;
-    width: 50%;
+    width: 710px;
+  }
+  .carrinho {
+    margin-bottom: 20px;
   }
   h2 {
     font-size: 32px;
     color: rgb(56, 172, 56);
   }
-  label,
+
   span {
     color: white;
+    font-size: 25px;
+  }
+  label {
+    margin-bottom: 10px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+  }
+  .MuiInput-input {
+    margin-top: 10px;
   }
 `
 
@@ -36,12 +50,13 @@ export const Voltar = styled(IconButton).attrs({
 `
 
 export const TotalContainer = styled.section`
-  margin-top: 20px;
+  margin-top: 60px;
   > div {
     align-items: center;
     display: flex;
     gap: 20px;
     justify-content: space-between;
+    margin-top: 15px;
     h2 {
       color: rgb(56, 172, 56);
       font-size: 32px;
