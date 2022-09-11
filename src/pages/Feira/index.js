@@ -15,7 +15,7 @@ function Feira() {
           <h2> Olá {nome}!</h2>
           <h3> Saldo: R${saldo.toFixed(2)}</h3>
         </div>
-        <p>Encontre os melhores produtos orgânicos!</p>
+        <p>Encontre os melhores produtos geek aqui!</p>
       </Header>
       <Lista>
         <h2>Produtos:</h2>

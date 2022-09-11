@@ -24,7 +24,6 @@ function Login() {
         <InputContainer>
           <InputLabel>Saldo</InputLabel>
           <Input
-            value={saldo}
             type="number"
             onChange={event => setSaldo(Number(event.target.value))}
             startAdornment={

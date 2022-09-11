@@ -9,6 +9,18 @@ export const ContainerFather = styled.section`
   p {
     color: white;
   }
+  .MuiInputBase-input,
+  .MuiTypography-colorTextSecondary {
+    font-size: 25px;
+  }
+  label {
+    font-size: 25px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    margin-bottom: 55px;
+  }
+  input {
+  }
 `
 
 export const Container = styled.div`
@@ -19,20 +31,31 @@ export const Container = styled.div`
   padding-bottom: 20px;
   border-radius: 10px;
   margin-top: 100px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
 
   @media (min-width: 768px) {
     margin: auto auto;
-    width: 50%;
+    width: 610px;
+    heigth: 394px;
     margin-top: 100px;
   }
 `
 
 export const Titulo = styled.h2`
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   margin-top: 50px;
-  color: rgb(56, 172, 56);
+  color: rgb(56, 172, 100);
   text-align: center;
-  font-size: 45px;
+  font-size: 65px;
+
+  @media (max-width: 500px) {
+    font-size: 50px;
+  }
+  @media (max-width: 500px) {
+    font-size: 40px;
+  }
 `
 
 export const InputContainer = styled(FormControl)`
